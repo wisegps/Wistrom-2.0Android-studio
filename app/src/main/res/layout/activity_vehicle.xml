@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <Button
+            android:id="@+id/btn_vehicle_create"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:textSize="@dimen/btn_text_size"
+            android:text="创建车辆"/>
+        <Button
+            android:id="@+id/btn_vehicle_get"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:textSize="@dimen/btn_text_size"
+            android:text="获取车辆信息"/>
+        <Button
+            android:id="@+id/btn_vehicle_updata"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:textSize="@dimen/btn_text_size"
+            android:text="更新车辆信息"/>
+        <Button
+            android:id="@+id/btn_vehicle_list"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:textSize="@dimen/btn_text_size"
+            android:text="获取车信息辆列表"/>
+        <Button
+            android:id="@+id/btn_vehicle_delete"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:textSize="@dimen/btn_text_size"
+            android:text="删除车辆"/>
+    </LinearLayout>
+
+
+</ScrollView>

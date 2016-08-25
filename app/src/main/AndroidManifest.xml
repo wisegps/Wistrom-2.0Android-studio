@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.wicare.wistormdemo">
+
+    <uses-permission android:name="android.permission.INTERNET" ></uses-permission>
+    
+    <application
+        android:name=".app.AppApplication"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <!-- KEY-->
+        <meta-data
+            android:name="Wistorm_appSecret"
+            android:value="cd0811c91da9399ea77c576869c0c483" />
+        <meta-data
+            android:name="Wistorm_appKey"
+            android:value="4fa2ca9bf6921d41c92041f414ec8ab9" />
+        <meta-data
+            android:name="Wistorm_devKey"
+            android:value="86e3ddeb8db36cbf68f10a8b7d05e7ac" />
+
+
+        <!-- Device接口页面-->
+        <activity android:name=".DeviceApiActivity"/>
+        <!-- 用户接口页面-->
+        <activity android:name=".UserApiActivity"/>
+        <!--车辆接口野蛮-->
+        <activity android:name=".VehicleActivity"/>
+
+    </application>
+
+</manifest>
